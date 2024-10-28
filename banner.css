@@ -1,0 +1,55 @@
+.banner{
+    height: 450px;
+    background-image: url(imagenes/puenteBanner.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+.titulosBanner{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    text-align: center;
+}
+.bannerTitle{
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 17px;
+}
+.bannerTitle2{
+    font-family: "PT Sans";
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+}
+.puntos{
+    display: flex;
+    gap: 8px;
+    font-size: 17px;
+    color: white;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 28px;
+}
+
+.flechaDerechaBanner, .flechaIzquierdaBanner{
+    position: absolute;
+    color: white;
+    transform: translateY(-50%);
+    top: 50%;
+    font-size: 52px;
+    
+}
+
+.flechaDerechaBanner{
+    right: 193px;
+}
+.flechaIzquierdaBanner{
+    left: 193px;
+
+}

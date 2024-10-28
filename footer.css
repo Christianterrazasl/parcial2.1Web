@@ -1,0 +1,77 @@
+.marcas{
+    height: 174px;
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+    align-items: center;
+}
+.footerUp{
+    background-color: #4e5054;
+    height: 328px;
+    display: flex;
+    justify-content: center;
+    padding-left: 193px;
+    padding-right: 193px;
+    
+}
+.parrafo{
+    width: 200px;
+    margin-right: 50px;
+}
+.parrafoTitle{
+    font-weight: normal;
+    font-size: 22px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.parrafoP, .parrafoFecha{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "PT Sans";
+    color: #c0c0c0;
+}
+.parrafoFecha{
+    color: #898989;
+    display: inline;
+}
+.parrafoIcon{
+    display: inline;
+    color: #00bac6;
+    font-size: 16px;
+}
+.parrafo1Up{
+    border-bottom: 1px solid #5c5c5c;
+}
+.contacto{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: start;
+    margin: 0;
+    height: 30px;
+}
+.footerDown{
+    background-color: #252225;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerDownP{
+    margin: 0;
+    font-family: "PT Sans";
+    font-size: 14px;
+    color: #c1c1c1;
+    margin-left: 193px;
+}
+
+.footerDownIcons{
+    width: 168px;
+    color: white;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-right: 200px;
+    gap: 27px;
+}

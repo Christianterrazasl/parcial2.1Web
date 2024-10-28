@@ -1,0 +1,80 @@
+.lineaArriba{
+    height: 60px;
+    background-color: #252323;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.lineaArribaTitle{
+    font-family: Pacifico;
+    color: white;
+    font-size: 23px;
+    margin-left: 205px;
+    font-weight: normal;
+
+}
+.lineaArribaTitle span{
+    color: #00bac6;
+
+}
+
+.lineaArribaIcons{
+    width: 168px;
+    color: white;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-right: 200px;
+    gap: 27px;
+    
+}
+.lineaArribaIcons li i{
+    color: #c1c1c1;
+    font-size: 28px;
+}
+.lineaAbajo{
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lineaAbajoOptions{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+}
+.lineaAbajoOptions li{
+    padding: 37px 15px 33px 15px;
+    font-size: 14px;
+    color: #8b8b8b;
+
+}
+.lineaAbajoOptions li:first-child{
+    color: #00bac6;
+    border-bottom: 1px solid #00bac6;
+}
+
+.search{
+    position: relative;
+}
+
+.searchBar{
+    margin-left: 28px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #a6a6a6;
+    border: 1px solid #a6a6a6;
+    height: 37px;
+    width: 189px;
+
+}
+
+.search i{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 10px;
+}
