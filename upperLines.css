@@ -78,3 +78,85 @@
     top: 50%;
     right: 10px;
 }
+
+@media screen and (max-width: 480px){
+
+    body, html{
+        overflow-x: hidden;
+    }
+    .lineaArriba{
+        height: 80px;
+        background-color: #252323;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .lineaArribaTitle{
+        font-family: Pacifico;
+        color: white;
+        font-size: 15px;
+        margin-left: 10px;
+        font-weight: normal;
+        margin-top: 20px;
+    
+    }
+    .lineaArribaIcons{
+        width: 50px;
+        color: white;
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin-right: 30px;
+        gap: 10px;
+        
+        
+    }
+    .lineaArribaIcons li i{
+        color: #c1c1c1;
+        font-size: 15px;
+    }
+    .lineaAbajo{
+        height: auto;
+        display: block;
+        justify-content: space-around;
+        align-items: start;
+    }
+    .lineaAbajoOptions{
+        list-style: none;
+        display: flex;
+        justify-content:start;
+        align-items: center;
+        margin-left: 0px;
+        padding: 0;
+        gap: 15px;
+        margin: 0;
+    }
+    .lineaAbajoOptions li{
+        font-size: 10px;
+        width: 10px;
+        text-align: center;
+    }
+    .search{
+        position: relative;
+        display: block;
+    }
+    
+    .searchBar{
+        margin-left: 28px;
+        font-size: 13px;
+        font-weight: normal;
+        color: #a6a6a6;
+        border: 1px solid #a6a6a6;
+        height: 37px;
+        width: 189px;
+    
+    }
+    
+    .search i{
+        position: absolute;
+        transform: translateY(-50%);
+        top: 50%;
+        right: 10px;
+    }
+}

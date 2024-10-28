@@ -53,3 +53,16 @@
     left: 193px;
 
 }
+
+@media screen and (max-width: 480px){
+    .flechaDerechaBanner{
+        right: 5%;
+        font-size: 15px;
+
+    }
+    .flechaIzquierdaBanner{
+        left: 5%;
+        font-size: 15px;
+    
+    }
+}

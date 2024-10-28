@@ -44,3 +44,25 @@
     margin-left: 23px;
     margin-right: 20px;
 }
+
+@media screen and (max-width: 480px){
+    .muestras{
+    
+        background-color: #eeee;
+        
+        
+        width: 100%;
+        padding: 0;
+        justify-items: center;
+    
+    
+    
+    }
+    
+    .muestraContainer{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+}

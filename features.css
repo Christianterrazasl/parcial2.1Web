@@ -52,3 +52,60 @@ margin-top: 81px;
     font-size: 14px;
     color: #9a9a9a;
 }
+
+@media screen and (max-width: 480px){
+    .featuresTitle{
+        font-size: 15px;
+        font-weight: normal;
+        color: #818181;
+    }
+    .featuresP{
+        font-family: "PT Sans";
+        color: #9a9a9a;
+        font-size: 12px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .featuresImages{
+        padding-left: 15px;
+        padding-right: 15px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px auto;
+        
+        
+    }
+    .feature{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        
+    }
+    .feature1{
+    
+    }
+    .feature2{
+    margin-top: 0;
+    }
+    .feature3{
+    
+    }
+    .featureTitle{
+        font-size: 13px;
+        color: #7b7b7b;
+        margin: 15px;
+    }
+    .featureP{
+        font-family: "PT Sans";
+        font-weight: normal;
+        font-size: 12px;
+        color: #9a9a9a;
+    }
+    .feature img{
+        width: 100px;
+    }
+                
+}
