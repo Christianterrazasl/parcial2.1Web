@@ -63,6 +63,31 @@
         display: flex;
         width: 100%;
         flex-wrap: wrap;
+        justify-content: center;
     }
     
+    
+}
+
+@media screen and (481px < width < 1024px){
+    .muestras{
+    
+        background-color: #eeee;
+        
+        
+        width: 100%;
+        padding: 0;
+        justify-items: center;
+        padding-bottom: 30px;
+    
+    
+    
+    }
+    
+    .muestraContainer{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }

@@ -74,14 +74,17 @@ margin-top: 81px;
         justify-content: center;
         flex-direction: column;
         margin: 20px auto;
+        align-items: center;
         
         
     }
     .feature{
-        width: 80%;
+        margin-top: 10px;
+        width: 90%;
         display: flex;
         justify-content: space-between;
         margin-bottom: 10px;
+        border-bottom: 1px solid gray ;
         
     }
     .feature1{
@@ -108,4 +111,18 @@ margin-top: 81px;
         width: 100px;
     }
                 
+}
+@media screen and (481px < width < 1024px){
+    .featuresImages{
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 333px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 47px;
+    }
+    .feature{
+        width: 30%;
+        
+    }
 }

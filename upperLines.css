@@ -160,3 +160,87 @@
         right: 10px;
     }
 }
+
+
+@media screen and (481px < width < 1024px){
+    
+    body, html{
+        overflow-x: hidden;
+    }
+    .lineaArriba{
+        height: 80px;
+        background-color: #252323;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+    .lineaArribaTitle{
+        font-family: Pacifico;
+        color: white;
+        font-size: 30px;
+        margin-left: 30px;
+        font-weight: normal;
+        margin-top: 20px;
+    
+    }
+    .lineaArribaIcons{
+        width: 200px;
+        color: white;
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        margin-right: 30px;
+        gap: auto;
+        
+        
+    }
+    .lineaArribaIcons li i{
+        color: #c1c1c1;
+        font-size: 25px;
+    }
+    .lineaAbajo{
+        height: auto;
+        display: block;
+        justify-content: space-around;
+        align-items: start;
+    }
+    .lineaAbajoOptions{
+        list-style: none;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        margin-left: 0px;
+        padding: 0;
+        gap: 15px;
+        margin: 0;
+    }
+    .lineaAbajoOptions li{
+        font-size: 15px;
+        width: 90px;
+        text-align: center;
+    }
+    .search{
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    
+    .searchBar{
+        margin-left: 0px;
+        font-size: 13px;
+        font-weight: normal;
+        color: #a6a6a6;
+        border: 1px solid #a6a6a6;
+        height: 37px;
+        width: 189px;
+        
+    
+    }
+    
+    .search i{
+        position: static;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+}
